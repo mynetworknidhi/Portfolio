@@ -10,10 +10,7 @@ body{
     background-color: cadetblue;
 }
 
-.wrapper{
-    margin: 0 auto;
-    width: 80%;
-}
+
 
 nav{
     width: 100%;
@@ -47,37 +44,93 @@ ul li a {
 ul li a:hover {
     color: black;
 }
-
-.imaging{
-    width: 75px;
-    height: 40px;
-    background-image: url(image/download.jfif.jpg);
-    background-size: 25%;
-    background-position:left;
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
 }
 
-.imaging:hover{
-   background-size: 1000%;
+.banner{
+    display: left;
 }
-
-video{
-    width:100%;
-
+.image-info{
+    width: 100%;
+    padding-left: 50px;
 }
-
+.forward{
+    padding: 30px 30px 30px;
+}
 .videoFraming{
+    width: 100%;
     position: relative;
     left:0px;
     padding-bottom: 56.25%;
-    padding-top: 25px;
+    padding-top: 0px;
     height: 0px;
 }
-.videoFraming iframe{
+
+.firstyou{
     position: absolute;
     left:0px;
     top: 0px;
-    bottom: 0cm;
-    right: 0cm;
+    bottom: 0px;
+    right: 0px;
     height: 100%;
     width: 100%;
+}
+.secondvim{
+    position: absolute;
+    left:0px;
+    top: 855px;
+    bottom: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (max-width: 500px){
+    nav{
+        width: 100%;
+        height: 300px;
+        background-color: #fff;
+    }
+
+    .wrapper{
+        margin: 0 0;
+        width: 400px;
+        
+    }
+    .banner{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .image-info{
+        width: 400px;
+        padding-left: 5px ;
+    }
+    .forward{
+        text-align: center;
+        padding: 30px 30px 30px;
+    }
+    .videoFraming{
+        width: 100%;
+        position: relative;
+        left:0px;
+        padding-bottom: 300px;
+        padding-top: 0px;
+        height: 0px;
+    }
+    .firstyou{
+        display: block;
+        margin-left: 7px;
+        margin-right: auto;
+        width: 100%;
+    }
+    .secondvim{
+        display: block;
+        margin-left: 5px;
+        margin-right: auto;
+        top: 300px;
+        width: 100%;
+    }
 }
