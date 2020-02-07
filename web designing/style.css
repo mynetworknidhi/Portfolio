@@ -12,7 +12,7 @@ body{
 
 .wrapper{
     margin: 0 auto;
-    width: 1000px;
+    width: 80%;
 }
 
 nav{
@@ -58,4 +58,26 @@ ul li a:hover {
 
 .imaging:hover{
    background-size: 1000%;
+}
+
+video{
+    width:100%;
+
+}
+
+.videoFraming{
+    position: relative;
+    left:0px;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+}
+.videoFraming iframe{
+    position: absolute;
+    left:0px;
+    top: 0px;
+    bottom: 0cm;
+    right: 0cm;
+    height: 100%;
+    width: 100%;
 }
